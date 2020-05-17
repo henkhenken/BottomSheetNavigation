@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BottomSheetNavigation</string>
+
+    <string name="main_fragment_label">First Fragment</string>
+    <string name="main_fragment_text">Hello there, how are you today?</string>
+    <string name="main_fragment_button">Open the bottom sheet</string>
+
+    <string name="first_bottom_fragment_text">This is the first fragment\nClick the button!</string>
+    <string name="first_bottom_fragment_button">Next</string>
+
+    <string name="second_bottom_fragment_text">This is the second fragment\nYou can also click the android back button to go back</string>
+    <string name="second_bottom_fragment_button">Go back</string>
+</resources>

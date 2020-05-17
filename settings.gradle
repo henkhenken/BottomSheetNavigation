@@ -1,0 +1,3 @@
+rootProject.name='BottomSheetNavigation'
+include ':sample'
+include ':bottomsheetnavigation'

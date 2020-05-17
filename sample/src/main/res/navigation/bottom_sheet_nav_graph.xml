@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstBottomFragment">
+
+    <fragment
+        android:id="@+id/FirstBottomFragment"
+        android:name="com.henkhenken.bottomsheetnavigationexample.bottomsheet.FirstBottomFragment"
+        android:label=""
+        tools:layout="@layout/fragment_first_bottom">
+        <action
+            android:id="@+id/action_FirstBottomFragment_to_secondBottomFragment"
+            app:destination="@id/secondBottomFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondBottomFragment"
+        android:name="com.henkhenken.bottomsheetnavigationexample.bottomsheet.SecondBottomFragment"
+        android:label=""
+        tools:layout="@layout/fragment_second_bottom"/>
+</navigation>
